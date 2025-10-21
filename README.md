@@ -23,23 +23,34 @@ Built by **Salaheddine Rachidi (@salahrachidi)** and **Usama Hrb (@usama-hrb)** 
 ## 🧱 Project Structure (example)
 
 ```
-ft_irc/
-├── Makefile
-├── include/
-│   ├── Server.hpp
-│   ├── Client.hpp
-│   ├── Channel.hpp
-│   ├── Command.hpp
-│   └── Utils.hpp
-├── src/
-│   ├── main.cpp
-│   ├── Server.cpp
-│   ├── Client.cpp
-│   ├── Channel.cpp
-│   ├── Command.cpp
-│   └── Utils.cpp
-└── docs/
-    └── README.md  (this file)
+Directory structure:
+└── salahrachidi-ft_irc/
+    ├── README.md
+    ├── Makefile
+    ├── bot/
+    │   └── BOT.cpp
+    ├── cmds/
+    │   ├── INVITE.cpp
+    │   ├── JOIN.cpp
+    │   ├── KICK.cpp
+    │   ├── MODE.cpp
+    │   ├── NICK.cpp
+    │   ├── PASS.cpp
+    │   ├── PRIVMSG.cpp
+    │   ├── QUIT.cpp
+    │   ├── TOPIC.cpp
+    │   └── USER.cpp
+    ├── inc/
+    │   ├── Channel.hpp
+    │   ├── Client.hpp
+    │   ├── Needs.hpp
+    │   ├── ReplyCodes.hpp
+    │   └── Server.hpp
+    └── src/
+        ├── Channel.cpp
+        ├── client.cpp
+        ├── main.cpp
+        └── Server.cpp
 ```
 
 > Your actual layout may differ; update paths accordingly.
