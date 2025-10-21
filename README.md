@@ -155,7 +155,7 @@ printf "PING :12345\r\n" | nc 127.0.0.1 6667
 
 ## 🧑‍🤝‍🧑 Collaboration & Workflow
 
-- Pair programming between **Salaheddine Rachidi** — [@salahrachidi](https://github.com/salahrachidi) and **Usama Hrb** — [@usama-hrb](https://github.com/usama-hrb)
+- Pair programming between **[@salahrachidi](https://github.com/salahrachidi)** and **[@usama-hrb](https://github.com/usama-hrb)**
 - **Git** flow with feature branches + PR reviews
 - **Issues/Boards** (Jira/Notion) for command specs, modes, and test cases
 - **Client test matrix**: LimeChat, `nc`, and scripted fuzz cases
