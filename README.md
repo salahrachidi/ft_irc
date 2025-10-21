@@ -193,4 +193,6 @@ printf "PING :12345\r\n" | nc 127.0.0.1 6667
 
 - **Salaheddine Rachidi** — [@salahrachidi](https://github.com/salahrachidi)  
 
-> Feel free to open issues or PRs for improvements or RFC compliance fixes.
+---
+
+📚 *Project developed as part of the 42/1337 curriculum to build a deeper understanding of Unix internals and shell behavior in C.*
